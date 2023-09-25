@@ -10,11 +10,8 @@ const client = new Client();
     try {
         identity = client.halo.identity.get()
     } catch (err) {
-        console.log('errrrrrrrrrrrrr', err)
+        console.log('error...', err)
     }
-
-    // get a list of all spaces
-    // const spaces = client.spaces.get()
 
     console.log('identity', identity)
 })()
