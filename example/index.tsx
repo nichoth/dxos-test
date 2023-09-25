@@ -1,4 +1,4 @@
-import { Client } from '@dxos/client';
+import { Client } from '@dxos/client'
 import { render } from 'preact'
 
 const client = new Client();
